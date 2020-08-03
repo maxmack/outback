@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'sc1';
+    src: url('../fonts/S-Core-Dream-full/scdream1.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc2';
+    src: url('../fonts/S-Core-Dream-full/scdream2.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc3';
+    src: url('../fonts/S-Core-Dream-full/scdream3.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream3.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc4';
+    src: url('../fonts/S-Core-Dream-full/scdream4.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream4.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc5';
+    src: url('../fonts/S-Core-Dream-full/scdream5.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream5.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc6';
+    src: url('../fonts/S-Core-Dream-full/scdream6.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream6.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc7';
+    src: url('../fonts/S-Core-Dream-full/scdream7.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc8';
+    src: url('../fonts/S-Core-Dream-full/scdream8.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream8.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sc9';
+    src: url('../fonts/S-Core-Dream-full/scdream9.woff2') format('woff2'),
+         url('../fonts/S-Core-Dream-full/scdream9.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
