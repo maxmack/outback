@@ -9,12 +9,14 @@ html { width: 100%; height: 100vh; background-color: #000; }
 #nav { position: fixed; top: 0; left: 0; width: 100%; border-bottom: 1px solid rgba(255,255,255,0.2); z-index: 9999; }
 #header { width: 100%; }
 #sec01 { background-color: #fff; }
+#sec02 { position: relative; background-image: url(../img/s2_back.jpg); background-size: cover; background-repeat: no-repeat; }
 
 .container { width: 1140px; margin: 0 auto; }
 .row { padding: 120px 15px; }
 
 /* 타이틀 요소 */
 .title { font-size: 100px; color: var(--main-color); font-family: sc1; }
+.sub_title { display: block; font-size: 50px; margin-top: -70px; font-family: sc5; }
 
 /* nav */
 #nav .container { width: 100%; }
@@ -92,6 +94,19 @@ html { width: 100%; height: 100vh; background-color: #000; }
 .sec01 .sec01_bottom .sec01_bottom_left .sec01_bottom_list li p { margin-top: 15px; font-family: sc3; font-size: 14px; line-height: 2; }
 .sec01 .sec01_bottom .sec01_bottom_right { float: left; width: 30%; text-align: right; padding-right: 15px; box-sizing: border-box; font-size: 17px; font-family: sc4; line-height: 2; }
 
+
+#sec02 .cover { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255,255,255,0.8); }
+.sec02 { position: relative; width: 100%; z-index: 100; }
+.sec02 .sec02_title { text-align: center; }
+.sec02 .sec02_title .sub_title { font-size: 30px; margin-top: -40px; }
+.sec02 .sec02_title .sec02_phone { display: inline-block; padding: 7px 30px; font-family: sc7; font-size: 17px; background-color: var(--main-color); }
+.sec02 .sec02_cont ul { overflow: hidden; margin-top: 80px; }
+.sec02 .sec02_cont ul li { float: left; width: 30%; text-align: center; }
+.sec02 .sec02_cont ul li.center { margin: 0 5%; }
+.sec02 .sec02_cont figure { margin: 0 auto ; width: 80px; height: 77px; }
+.sec02 .sec02_cont h5 { font-size: 17px; font-family: sc6; margin: 37px 0; }
+.sec02 .sec02_cont p { width: 90%; margin: 0 auto; font-size: 15px; font-family: sc4; }
+
 @media (max-width: 1200px){
     #nav .nav_top .n_top_phone { width: 960px; }
     #nav .nav_con .nav { width: 960px; }
@@ -124,6 +139,8 @@ html { width: 100%; height: 100vh; background-color: #000; }
     .sec01 .sec01_right .sec01_number { font-size: 25px; }
     .sec01 .sec01_bottom .sec01_bottom_left .sec01_bottom_list li { width: 50%; margin-right: 0px; }
 
+    .sec02 .sec02_cont p { width: 100%; }
+
 
 }
 @media (max-width: 760px){
@@ -137,6 +154,9 @@ html { width: 100%; height: 100vh; background-color: #000; }
     .sec01 .sec01_bottom .sec01_bottom_left { width: 100%; }
     .sec01 .sec01_bottom .sec01_bottom_left .sec01_bottom_list li { width: 50%; margin-right: 0; text-align: center; margin-bottom: 20px; }
     .sec01 .sec01_bottom .sec01_bottom_right { width: 100%; margin-top: 60px; font-size: 17px; }
+
+    .sec02 .sec02_cont ul li { width: 100%; margin-bottom: 25px; }
+    .sec02 .sec02_cont ul li.center { margin: 0 0 25px; }
 
 
 
