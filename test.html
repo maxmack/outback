@@ -6,13 +6,20 @@
     <title>Document</title>
     <style>
         *{margin: 0; padding: 0;}
-        .wrap { display: none; width: 500px; height: 500px; background-color: pink; }
-        .cont { position: relative; top:0; left: 0; width: 100px; height: 100px; background-color: red; }
+        ul { overflow: hidden; width: 500px; }
+        li { float: left; width: 50%; height: 100px; }
+        .list01 { background-color: pink; }
+        .list02 { background-color: green; transform: translateY(10px); }
+        .list03 { background-color: blue; }
+        .list04 { background-color: gray; }
     </style>
 </head>
 <body>
-    <div class="wrap">
-        <div class="cont"></div>
-    </div>
+    <ul>
+        <li class="list01"></li>
+        <li class="list02"></li>
+        <li class="list03"></li>
+        <li class="list04"></li>
+    </ul>
 </body>
 </html>

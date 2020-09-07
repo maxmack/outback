@@ -10,6 +10,7 @@ html { width: 100%; height: 100vh; background-color: #000; }
 #header { width: 100%; }
 #sec01 { background-color: #fff; }
 #sec02 { position: relative; background-image: url(../img/s2_back.jpg); background-size: cover; background-repeat: no-repeat; }
+#sec03 { background-color: #fff; }
 
 .container { width: 1140px; margin: 0 auto; }
 .row { padding: 120px 15px; }
@@ -95,6 +96,7 @@ html { width: 100%; height: 100vh; background-color: #000; }
 .sec01 .sec01_bottom .sec01_bottom_right { float: left; width: 30%; text-align: right; padding-right: 15px; box-sizing: border-box; font-size: 17px; font-family: sc4; line-height: 2; }
 
 
+/*section02*/
 #sec02 .cover { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(255,255,255,0.8); }
 .sec02 { position: relative; width: 100%; z-index: 100; }
 .sec02 .sec02_title { text-align: center; }
@@ -107,6 +109,25 @@ html { width: 100%; height: 100vh; background-color: #000; }
 .sec02 .sec02_cont h5 { font-size: 17px; font-family: sc6; margin: 37px 0; }
 .sec02 .sec02_cont p { width: 90%; margin: 0 auto; font-size: 15px; font-family: sc4; }
 
+
+/*section03*/
+
+.sec03 .title_wrap { text-align: center; margin-bottom: 72px; }
+.sec03 .sec03_cont { width: 100%; }
+.sec03 .sec03_cont ul { overflow: hidden; width: 100%; }
+.sec03 .sec03_cont ul .sec03_list { float: left; overflow: hidden; width: 50%; }
+.sec03_list .sec03_list_first { float: left; width: 50%; height: 236px; background-image: url(../img/menu01.jpg); background-size: cover; background-repeat: no-repeat; background-position: center; }
+.sec03 .sec03_cont ul .sec03_list03 .sec03_list_first { float: right; }
+.sec03 .sec03_cont ul .sec03_list04 .sec03_list_first { float: right; }
+.sec03_list .sec03_list_second { float: left; width: 50%; height: 236px; }
+.sec03_list .sec03_list_second .sec03_txt { position: relative; margin: 30px 20px; }
+.sec03_list .sec03_list_second .sec03_txt h5 { font-size: 18px; font-family: sc5; line-height: 40px; }
+.sec03_list .sec03_list_second .sec03_txt h5:nth-child(2) { margin-top: -10px; }
+.sec03_list .sec03_list_second .sec03_txt span { position: absolute; top: 0px; right: 0px; font-size: 18px; font-family: sc6; line-height: 40px; color: var(--main-color); }
+.sec03_list .sec03_list_second .sec03_txt p { font-size: 16px; font-family: sc3; line-height: 34px; }
+.sec03_list .sec03_list_second .sec03_txt button { margin-top: 17px; padding: 0 15px; border-radius: 3px; background-color: var(--main-color); font-size: 16px; font-family: sc6; line-height: 34px; }
+
+
 @media (max-width: 1200px){
     #nav .nav_top .n_top_phone { width: 960px; }
     #nav .nav_con .nav { width: 960px; }
@@ -114,6 +135,9 @@ html { width: 100%; height: 100vh; background-color: #000; }
     .sec01 .sec01_right .sec01_number { font-size: 30px; }
     .sec01 .sec01_bottom .sec01_bottom_left .sec01_bottom_list li { margin-right: 40px; }
     .sec01 .sec01_bottom .sec01_bottom_right { font-size: 14px; padding: 0 20px 0 30px; }
+    .sec03_list .sec03_list_second .sec03_txt h5 { font-size: 16px; }
+    .sec03_list .sec03_list_second .sec03_txt span { font-size: 16px; }
+    .sec03_list .sec03_list_second .sec03_txt p { font-size: 14px; }
 
 }
 @media (max-width: 970px){
@@ -141,6 +165,7 @@ html { width: 100%; height: 100vh; background-color: #000; }
 
     .sec02 .sec02_cont p { width: 100%; }
 
+    .sec03 .sec03_cont ul .sec03_list { width: 100%; }
 
 }
 @media (max-width: 760px){
@@ -158,11 +183,17 @@ html { width: 100%; height: 100vh; background-color: #000; }
     .sec02 .sec02_cont ul li { width: 100%; margin-bottom: 25px; }
     .sec02 .sec02_cont ul li.center { margin: 0 0 25px; }
 
+    .sec03 .sec03_cont ul .sec03_list03 .sec03_list_first { float: left; }
+    .sec03 .sec03_cont ul .sec03_list04 .sec03_list_first { float: left; }
 
 
 }
 @media (max-width: 560px){
-    .title { font-size: 80px; }
+    .title { font-size: 50px; }
+    .sub_title { font-size: 30px; margin-top: -40px; }
+    .sec01 .sec01_right .sub_title { font-size: 30px; margin-top: -40px; }
+    .sec01 .sec01_right .sub_title02 { font-size: 30px; margin-top: -20px; }
+    .sec02 .sec02_title .sub_title { font-size: 25px; margin-top: -20px; }
     .container { width: 100%; }
     .sec01 .sec01_right .title { text-align: center; }
     .sec01 .sec01_right .sub_title { text-align: center; }
@@ -170,4 +201,8 @@ html { width: 100%; height: 100vh; background-color: #000; }
     .sec01 .sec01_right .sec01_number { text-align: center; }
     .sec01 .sec01_bottom .sec01_bottom_left .sec01_bottom_list li { width: 100%; }
     .sec01 .sec01_bottom .sec01_bottom_right { padding: 0; text-align: center; }
+
+
+    .sec03_list .sec03_list_first { width: 100%; height: 250px; }
+    .sec03_list .sec03_list_second { width: 100%; }
 }
